@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6EEC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background-image: url("/static/images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+  }
+
+.reservation-form {
+    background-color: #EADBC8;
+    padding: 20px;
+    margin-top: 100px;
+    margin-right: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.reservation-form h2 {
+    margin-bottom: 20px;
+}
+
+.reservation-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.reservation-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reservation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #543310;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reservation-form button:hover {
+    background-color: #74512D;
+}
+
+#confirmationMessage {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #28a745;
+}
